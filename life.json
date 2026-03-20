@@ -1,0 +1,245 @@
+[
+    {
+        "name":"L-1",
+        "include":["l1","revenue","account"],
+        "exclude":[]
+    },
+    {
+        "name":"L-2",
+        "include":["l2","profit","loss","account"],
+        "exclude":[]
+    },
+    {
+        "name":"L-3",
+        "include":["l3","balance","sheet"],
+        "exclude":[]
+    },
+    {
+        "name":"L-4",
+        "include":["l4","premium", "schedule"],
+        "exclude":["revenue"]
+    },
+    {
+        "name":"L-5",
+        "include":["l5","commission", "schedule"],
+        "exclude":["l1"]
+    },
+     {
+        "name":"L-6",
+        "include":["l6","operating", "expenses", "schedule"],
+        "exclude":["l1"]
+    },
+    {
+        "name":"L-7",
+        "include":["l7","benefits","paid", "schedule"],
+        "exclude":["l1"]
+    },
+    {
+        "name":"L-8",
+        "include":["l8","share", "capital", "schedule"],
+        "exclude":[]
+    },
+    {
+        "name":"L-9",
+        "include":["l9","sharehold","pattern", "schedule"],
+        "exclude":[]
+    },{
+        "name":"L-10",
+        "include":["l10","reserves","surplus","schedule"],
+        "exclude":[]
+    },
+    {
+        "name":"L-11",
+        "include":["l11","borrowings","schedule"],
+        "exclude":[]
+    },
+     {
+        "name":"L-12",
+        "include":["l12","investments", "sharehold","schedule"],
+        "exclude":[]
+    },
+    {
+        "name":"L-13",
+        "include":["l13","investments", "policyhold","schedule"],
+        "exclude":[]
+    },
+    {
+        "name":"L-14",
+        "include":["l14","investments", "asset","schedule"],
+        "exclude":[]
+    },
+    {
+        "name":"L-15",
+        "include":["l15","loan","schedule"],
+        "exclude":[]
+    },
+    {
+        "name":"L-16",
+        "include":["fixed", "asset","schedule","gross","block"],
+        "exclude":[]
+    },
+    {
+        "name":"L-17",
+        "include":["l17","cash", "bank","schedule"],
+        "exclude":[]
+    },
+    {
+        "name":"L-18",
+        "include":["l18","advance", "asset","schedule"],
+        "exclude":[]
+    },
+    {
+        "name":"L-19",
+        "include":["l19","current", "liabil","schedule"],
+        "exclude":[]
+    },
+    {
+        "name":"L-20",
+        "include":["l20", "provisions","schedule"],
+        "exclude":[]
+    },
+    {
+        "name":"L-21",
+        "include":["l21", "misc", "expenditure","schedule"],
+        "exclude":[]
+    },
+    {
+        "name":"L-22",
+        "include":["l22", "analytical","ratio"],
+        "exclude":[]
+    },
+    {
+        "name":"L-23",
+        "include":["l233", "analytical","ratio"],
+        "exclude":[]
+    },
+    {
+        "name":"L-24",
+        "include":["l24","valuation","net","liabilit"],
+        "exclude":[]
+    },
+    {
+        "name":"L-25",
+        "include":["l25", "geographical","distribution","business"],
+        "exclude":[]
+    },
+    {
+        "name":"L-26",
+        "include":["l26", "investment", "assets"],
+        "exclude":[]
+    },
+    {
+        "name":"L-27",
+        "include":["l27","link","business"],
+        "exclude":[]
+    },
+    {
+        "name":"L-28",
+        "include":["l28","statement","nav", "fund"],
+        "exclude":[]
+    },
+    {
+        "name":"L-29",
+        "include":["l29"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-30",
+        "include":["l30"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-31",
+        "include":["l31"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-32",
+        "include":["l32"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-33",
+        "include":["l33", "npas"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-34",
+        "include":["l34","investment", "statement","income"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-35",
+        "include":["l35","investment", "statement","down","grade"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-36",
+        "include":["l36", "premium", "live","cover"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-37",
+        "include":["l37", "business", "acquisition","group"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-38",
+        "include":["l38","business", "acquisition","channel"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-39",
+        "include":["l39","settlement","claims"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-40",
+        "include":["l40", "quarterly","claim", "data"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-41",
+        "include":["l41", "grievance", "disposal"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-42",
+        "include":["l-42", "valuation", "basis"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-43",
+        "include":["l43","voting", "activ"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-44",
+        "include":["l-444", "investment", "assets"],
+        "exclude":[]
+
+    },
+    {
+        "name":"L-45",
+        "include":["l45", "offic", "information"],
+        "exclude":[]
+
+    }
+
+
+]
