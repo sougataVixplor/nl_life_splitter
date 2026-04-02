@@ -1,263 +1,448 @@
 [
     {
-        "name":"NL-1",
-        "include":["nl1","revenue","account"],
-        "exclude":[]
+        "name": "NL-1",
+        "include": [
+            "nl1",
+            "revenue",
+            "account"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-2",
-        "include":["nl2","profit","loss","account"],
-        "exclude":[]
+        "name": "NL-2",
+        "include": [
+            "nl2",
+            "profit",
+            "loss",
+            "account"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-3",
-        "include":["nl3","balance","sheet"],
-        "exclude":[]
+        "name": "NL-3",
+        "include": [
+            "nl3",
+            "balance",
+            "sheet"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-4",
-        "include":["nl4","premium", "schedule"],
-        "exclude":["revenue"]
+        "name": "NL-4",
+        "include": [
+            "nl4",
+            "premium",
+            "schedule"
+        ],
+        "exclude": [
+            "revenue"
+        ]
     },
     {
-        "name":"NL-5",
-        "include":["nl5","commission", "schedule"],
-        "exclude":["l1"]
-    },
-     {
-        "name":"NL-6",
-        "include":["nl6","operating", "expenses", "schedule"],
-        "exclude":["l1"]
-    },
-    {
-        "name":"NL-7",
-        "include":["nl7","benefits","paid", "schedule"],
-        "exclude":["l1"]
+        "name": "NL-5",
+        "include": [
+            "nl5",
+            "claim",
+            "schedule"
+        ],
+        "exclude": [
+            "nl1"
+        ]
     },
     {
-        "name":"NL-8",
-        "include":["nl8","share", "capital", "schedule"],
-        "exclude":[]
+        "name": "NL-6",
+        "include": [
+            "nl6",
+            "commission",
+            "schedule"
+        ],
+        "exclude": [
+            "nl1"
+        ]
     },
     {
-        "name":"NL-9",
-        "include":["nl9","sharehold","pattern", "schedule"],
-        "exclude":[]
-    },{
-        "name":"NL-10",
-        "include":["nl10","reserves","surplus","schedule"],
-        "exclude":[]
+        "name": "NL-7",
+        "include": [
+            "nl7",
+            "operating",
+            "expen",
+            "schedule"
+        ],
+        "exclude": [
+            "nl1"
+        ]
     },
     {
-        "name":"NL-11",
-        "include":["nl11","borrowings","schedule"],
-        "exclude":[]
-    },
-     {
-        "name":"NL-12",
-        "include":["nl12","investments", "sharehold","schedule"],
-        "exclude":[]
-    },
-    {
-        "name":"NL-13",
-        "include":["nl13","investments", "policyhold","schedule"],
-        "exclude":[]
+        "name": "NL-8",
+        "include": [
+            "nl8",
+            "share",
+            "capital",
+            "schedule"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-14",
-        "include":["nl14","investments", "asset","schedule"],
-        "exclude":[]
+        "name": "NL-9",
+        "include": [
+            "nl9",
+            "sharehold",
+            "pattern",
+            "schedule"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-15",
-        "include":["nl15","loan","schedule"],
-        "exclude":[]
+        "name": "NL-10",
+        "include": [
+            "nl10",
+            "reserves",
+            "surplus",
+            "schedule"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-16",
-        "include":["fixed", "asset","schedule","gross","block"],
-        "exclude":[]
+        "name": "NL-11",
+        "include": [
+            "nl11",
+            "borrowings",
+            "schedule"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-17",
-        "include":["nl17","cash", "bank","schedule"],
-        "exclude":[]
+        "name": "NL-12",
+        "include": [
+            "nl12",
+            "investments",
+            "schedule"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-18",
-        "include":["nl18","advance", "asset","schedule"],
-        "exclude":[]
+        "name": "NL-13",
+        "include": [
+            "nl13",
+            "loan",
+            "schedule"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-19",
-        "include":["nl19","current", "liabil","schedule"],
-        "exclude":[]
+        "name": "NL-14",
+        "include": [
+            "nl14",
+            "fixed",
+            "asset",
+            "schedule"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-20",
-        "include":["nl20", "provisions","schedule"],
-        "exclude":[]
+        "name": "NL-15",
+        "include": [
+            "nl15",
+            "cash",
+            "bank",
+            "schedule"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-21",
-        "include":["nl21", "misc", "expenditure","schedule"],
-        "exclude":[]
+        "name": "NL-16",
+        "include": [
+            "other",
+            "asset",
+            "schedule",
+            "advance"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-22",
-        "include":["nl22", "analytical","ratio"],
-        "exclude":[]
+        "name": "NL-17",
+        "include": [
+            "nl17",
+            "current",
+            "liabilit",
+            "schedule"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-23",
-        "include":["nl233", "analytical","ratio"],
-        "exclude":[]
+        "name": "NL-18",
+        "include": [
+            "nl18",
+            "provision",
+            "schedule"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-24",
-        "include":["nl24","valuation","net","liabilit"],
-        "exclude":[]
+        "name": "NL-19",
+        "include": [
+            "nl19",
+            "misc",
+            "expendi",
+            "schedule"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-25",
-        "include":["nl25", "geographical","distribution","business"],
-        "exclude":[]
+        "name": "NL-20",
+        "include": [
+            "nl20",
+            "analytical",
+            "ratio"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-26",
-        "include":["nl26", "investment", "assets"],
-        "exclude":[]
+        "name": "NL-21",
+        "include": [
+            "nl21",
+            "related",
+            "party"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-27",
-        "include":["nl27","link","business"],
-        "exclude":[]
+        "name": "NL-22",
+        "include": [
+            "nl22",
+            "cash",
+            "flow"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-28",
-        "include":["nl28","statement","nav", "fund"],
-        "exclude":[]
+        "name": "NL-23",
+        "include": [
+            "nl23",
+            "solvency",
+            "margin",
+            "admiss",
+            "asset"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-29",
-        "include":["nl29"],
-        "exclude":[]
-
+        "name": "NL-24",
+        "include": [
+            "nl24",
+            "solvency",
+            "margin",
+            "statement",
+            "liabilit"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-30",
-        "include":["nl30"],
-        "exclude":[]
-
+        "name": "NL-25",
+        "include": [
+            "nl25",
+            "solvency",
+            "margin",
+            "gross",
+            "premium"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-31",
-        "include":["nl31"],
-        "exclude":[]
-
+        "name": "NL-26",
+        "include": [
+            "nl26",
+            "solvency",
+            "margin",
+            "ib"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-32",
-        "include":["nl32"],
-        "exclude":[]
-
+        "name": "NL-27",
+        "include": [
+            "nl27",
+            "product",
+            "information"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-33",
-        "include":["nl33", "npas"],
-        "exclude":[]
-
+        "name": "NL-28",
+        "include": [
+            "nl28",
+            "statement",
+            "investment",
+            "asset"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-34",
-        "include":["nl34","investment", "statement","income"],
-        "exclude":[]
-
+        "name": "NL-29",
+        "include": [
+            "nl29",
+            "debt",
+            "secur"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-35",
-        "include":["nl35","investment", "statement","down","grade"],
-        "exclude":[]
-
+        "name": "NL-30",
+        "include": [
+            "nl30",
+            "non",
+            "perform",
+            "asset"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-36",
-        "include":["nl36", "premium", "live","cover"],
-        "exclude":[]
-
+        "name": "NL-31",
+        "include": [
+            "nl31"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-37",
-        "include":["nl37", "business", "acquisition","group"],
-        "exclude":[]
-
+        "name": "NL-32",
+        "include": [
+            "nl32",
+            "down",
+            "grade"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-38",
-        "include":["nl38","business", "acquisition","channel"],
-        "exclude":[]
-
+        "name": "NL-33",
+        "include": [
+            "nl33",
+            "reins",
+            "risk"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-39",
-        "include":["nl39","settlement","claims"],
-        "exclude":[]
-
+        "name": "NL-34",
+        "include": [
+            "nl34",
+            "geog",
+            "distribut"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-40",
-        "include":["nl40", "quarterly","claim", "data"],
-        "exclude":[]
-
+        "name": "NL-35",
+        "include": [
+            "nl35",
+            "return"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-41",
-        "include":["nl41", "grievance", "disposal"],
-        "exclude":[]
-
+        "name": "NL-36",
+        "include": [
+            "nl36",
+            "channel"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-42",
-        "include":["NL-42", "valuation", "basis"],
-        "exclude":[]
-
+        "name": "NL-37",
+        "include": [
+            "nl37",
+            "claim"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-43",
-        "include":["nl43","voting", "activ"],
-        "exclude":[]
-
+        "name": "NL-38",
+        "include": [
+            "nl38"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-44",
-        "include":["NL-44", "investment", "assets"],
-        "exclude":[]
-
+        "name": "NL-39",
+        "include": [
+            "nl39",
+            "age",
+            "claims"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-45",
-        "include":["nl45", "offic", "information"],
-        "exclude":[]
-
+        "name": "NL-40",
+        "include": [
+            "nl40"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-46",
-        "include":["nl45", "offic", "information"],
-        "exclude":[]
-
+        "name": "NL-41",
+        "include": [
+            "nl41",
+            "office",
+            "information"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-47",
-        "include":["nl45", "offic", "information"],
-        "exclude":[]
-
+        "name": "NL-42",
+        "include": [
+            "nl42",
+            "director",
+            "management"
+        ],
+        "exclude": []
     },
     {
-        "name":"NL-48",
-        "include":["nl45", "offic", "information"],
-        "exclude":[]
-
+        "name": "NL-43",
+        "include": [
+            "nl43",
+            "rural",
+            "social"
+        ],
+        "exclude": []
+    },
+    {
+        "name": "NL-44",
+        "include": [
+            "nl44",
+            "motor",
+            "oblig"
+        ],
+        "exclude": []
+    },
+    {
+        "name": "NL-45",
+        "include": [
+            "nl45",
+            "greivance",
+            "dispos"
+        ],
+        "exclude": []
+    },
+    {
+        "name": "NL-46",
+        "include": [
+            "nl46",
+            "voting",
+            "activ"
+        ],
+        "exclude": []
+    },
+    {
+        "name": "NL-47",
+        "include": [
+            "nl47"
+        ],
+        "exclude": []
+    },
+    {
+        "name": "NL-48",
+        "include": [
+            "nl48"
+        ],
+        "exclude": []
     }
-
-
 ]
